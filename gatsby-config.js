@@ -1,14 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `<astrojose/>`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Joseph Emmanuel`,
+      summary: `A fullstack developer and technical writer interested in exploring development tools and methodologies.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `In this blog, you willf find tutorials for backend and frontend skills, tutorials for development tools and coding insights.`,
+    siteUrl: `https://astrojose.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `astrojose`,
+      instagram: `astrojose.js`,
     },
   },
   plugins: [
