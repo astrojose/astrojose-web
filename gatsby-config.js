@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `<astrojose/>`,
+    title: `astrojose`,
     author: {
       name: `Joseph Emmanuel`,
-      summary: `A fullstack developer and technical writer interested in exploring development tools and methodologies.`,
+      summary: `, a fullstack developer and interested in coding ,exploring, applying and writting about development tools and methodologies.`,
     },
     description: `In this blog, you willf find tutorials for backend and frontend skills, tutorials for development tools and coding insights.`,
-    siteUrl: `https://astrojose.netlify.com/`,
+    siteUrl: `https://astrojose.com/`,
     social: {
-      twitter: `astrojose`,
+      twitter: `astrojose19`,
       instagram: `astrojose.js`,
     },
   },
@@ -79,6 +79,6 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
