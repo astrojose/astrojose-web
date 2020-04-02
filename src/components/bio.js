@@ -31,7 +31,7 @@ const Bio = () => {
             twitter
             instagram
           }
-        }
+        }	
       }
     }
   `)
@@ -58,11 +58,11 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author.name}</strong> {author.summary}
+        Written by <a href={`https://instagram.com/${social.instagram}`} target="_blank">
+          <strong>{author.name}</strong>
+        </a> {author.summary}
         {` `}
-        <a href={`https://instagram.com/${social.instagram}`} target="_blank">
-          ig @astrojose.js
-        </a>
+        
       </p>
     </div>
   )
