@@ -5,7 +5,6 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
-import Newsletter from "../components/newsletter"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -13,9 +12,8 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
-      <Bio /> 
-      <h2 style={{width:300, margin:`auto`}}>Latest Articles</h2>
+      <SEO title="astrojose's site" />
+      <Bio />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
@@ -42,7 +40,6 @@ const BlogIndex = ({ data, location }) => {
           </article>
         )
       })}
-      <Newsletter />
     </Layout>
   )
 }
