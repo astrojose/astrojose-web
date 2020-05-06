@@ -3,13 +3,13 @@ module.exports = {
     title: `astrojose`,
     author: {
       name: `Joseph Emmanuel`,
-      summary: `, a fullstack developer and interested in coding ,exploring, applying and writting about development tools and methodologies.`,
+      summary: `, a fullstack developer and interested in coding ,exploring and writting about Software Development.`,
     },
-    description: `In this blog, you willf find tutorials for backend and frontend skills, tutorials for development tools and coding insights.`,
+    description: `In this blog, you willf find skills for Developers.`,
     siteUrl: `https://astrojose.com/`,
     social: {
-      twitter: `astrojose19`,
-      instagram: `astrojose.js`,
+      twitter: `astrojose_`,
+      instagram: `astrojose_`,
     },
   },
   plugins: [
@@ -58,6 +58,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-feed`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
