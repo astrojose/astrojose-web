@@ -76,9 +76,9 @@ const Layout = ({ location, title, children }) => {
           minWidth: 300
           }
         }> 
-        <NavLink navto="/tutorials" navtitle='Tutorials'/>
+        {/* <NavLink navto="/tutorials" navtitle='Tutorials'/>
         <NavLink navto="/writting" navtitle='Writting'/>
-        <NavLink navto="/about" navtitle='About'/>
+        <NavLink navto="/about" navtitle='About'/> */}
         </div>
       </header>
 
