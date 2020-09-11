@@ -42,7 +42,7 @@ const BlogIndex = ({ data, location }) => {
           </article>
         )
       })}
-      <Newsletter />
+//       <Newsletter />
     </Layout>
   )
 }
