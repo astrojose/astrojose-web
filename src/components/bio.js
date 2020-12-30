@@ -59,7 +59,7 @@ const Bio = () => {
       />
       
       <p>
-        Personal Blog  by <a href={`https://instagram.com/${social.instagram}`} target="_blank">
+        Personal Blog  by <a href={`https://instagram.com/${social.instagram}`} target="_blank" rel="noopener noreferrer">
           <strong>{author.name}</strong>
         </a> {author.summary}
         {` `}
