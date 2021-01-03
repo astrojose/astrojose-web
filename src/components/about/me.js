@@ -34,7 +34,7 @@ const BioExtended = () => {
         Namely,Joseph Emmanuel, a software developer, mostly self-taught. 
         I code on freelance projects as I currently do not have a full time job. 
         I work on a number of side projects that I share in this blog.  <br/>
-        <em>What am working on now?</em> see <a href={`astrojose.com/now`}>my now page</a>
+        <em>What am working on now?</em> see <a href="/now">my now page</a>
             
         </p>
 	</div>

@@ -13,7 +13,11 @@ a {
 	text-decoration: none !important;
 }
 
-
+footer{
+	width: 400px;
+	margin: auto;
+	margin-top: 20px;
+}
 @media screen and (max-width: 580px){
 	#menu {
 		display: none !important;

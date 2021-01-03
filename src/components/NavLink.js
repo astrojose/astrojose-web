@@ -7,13 +7,13 @@ const NavLink = (props) => {
                 style={{
                 fontFamily: `Montserrat, sans-serif`,
                 marginTop: 0,
-                fontWeight: 150,
+                fontWeight: 250,
                 paddingLeft: 10  
             }}>
 			<Link style={{
                 boxShadow: `none`,
                 textDecoration: `none`,
-                color: `inherit`,
+                color: `deepink`,
             }}
 
             to={props.navto}

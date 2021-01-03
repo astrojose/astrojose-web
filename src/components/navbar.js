@@ -13,9 +13,9 @@ const NavBar = () =>{
           }
         }>
 		<ul class="menu-items">
-        <NavLink navto="/now" navtitle='now'/>
-        <NavLink navto="/about" navtitle='about'/>
-        <NavLink navto="/projects" navtitle='projects'/> 
+			<NavLink navto="/now" navtitle='now'/>
+			<NavLink navto="/about" navtitle='about'/>
+			<NavLink navto="/blog" navtitle='blog'/> 
         </ul>
 		</div>
 	)

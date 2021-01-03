@@ -58,8 +58,8 @@ const Bio = () => {
           <strong>{author.name}</strong>
         </a> {author.summary} <br/>
         {` `}
-        More? see <a href={`${siteUrl}/about`}>about page.. </a> 
-	  or what I&rsquo;m <a href={`${siteUrl}/now`}>doing now </a>
+        More? see <a href="/about">about page.. </a> 
+	  or what I&rsquo;m <a href="/now">doing now </a>
       </p>
     </div>
   )

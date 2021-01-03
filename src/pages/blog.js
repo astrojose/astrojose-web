@@ -1,22 +1,17 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
-import Newsletter from "../components/newsletter"
 
-const BlogIndex = ({ data, location }) => {
+const BlogBase = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="home" />
-      <h3 style={{marginTop:10,marginBottom:20}}>quick about me</h3>
-      <Bio />
-
+      <SEO title="blog" />
       <h3 style={{marginTop:10,marginBottom:20}}>articles</h3>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
@@ -49,7 +44,7 @@ const BlogIndex = ({ data, location }) => {
   )
 }
 
-export default BlogIndex
+export default BlogBase
 
 export const pageQuery = graphql`
   query {
