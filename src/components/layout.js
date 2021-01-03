@@ -11,10 +11,9 @@ const Layout = ({ location, title, children }) => {
 
   if (location.pathname === rootPath) {
     header = (
-      <h2
+      <h3 class="title"
         style={{
           ...scale(1.0),
-          marginBottom: rhythm(1.0),
           marginTop: 0,
         }}
       >
@@ -28,7 +27,7 @@ const Layout = ({ location, title, children }) => {
         >
           {title}
         </Link>
-      </h2>
+      </h3>
     )
     
   } else {
@@ -75,7 +74,7 @@ const Layout = ({ location, title, children }) => {
 	  </header>
 
       <main>{children}</main>
-      <footer>
+      <footer class="main">
 	    <a href="https://github.com/astrojose">github </a>
 	  	<a href="mailto:jossey1918@gmail.com" >email </a>
 	  	<a href="https://instagram.com" >instagram </a> <br/>

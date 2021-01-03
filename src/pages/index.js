@@ -17,7 +17,7 @@ const BlogIndex = ({ data, location }) => {
       <h3 style={{marginTop:10,marginBottom:20}}>quick about me</h3>
       <Bio />
 
-      <h3 style={{marginTop:10,marginBottom:20}}>articles</h3>
+      <h3 style={{marginTop:10,marginBottom:20}}>articles [<a id="a-link" href="/blog"> see all </a>]</h3>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
@@ -59,7 +59,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }
-
+	limit: 15
 	) {
       edges {
         node {

@@ -2,18 +2,26 @@ p{
 	margin-bottom:0;
 }
 ul.menu-items {
-	list-style-type: none
+	list-style-type: none;
+	margin-bottom: 10px;
 }
 ul.menu-items li{
 	display: inline-block;
 }
 
+h3.title {
+	margin-bottom: 10px;
+}
+a#a-link {
+	color: green;
+
+}
 a {
 	color: deeppink;
 	text-decoration: none !important;
 }
 
-footer{
+footer.main {
 	width: 400px;
 	margin: auto;
 	margin-top: 20px;
