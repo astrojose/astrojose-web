@@ -1,8 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 import NavLink from './NavLink'
-
+import NavBar from './navbar'
 import { rhythm, scale } from "../utils/typography"
+import "./style.css" 
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -58,6 +59,7 @@ const Layout = ({ location, title, children }) => {
         marginRight: `auto`,
         maxWidth: rhythm(30),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+		height: `100vh`,
       }}
     >
       <header style={{
@@ -69,22 +71,17 @@ const Layout = ({ location, title, children }) => {
         <div style={{
        
         }}> { header } </div>
-        <div style={{
-          display: `flex`,
-          justifyContent: `space-between`,
-          alignItems:`center`,
-          minWidth: 300
-          }
-        }> 
-        <NavLink navto="/now" navtitle='now'/>
-        <NavLink navto="/about" navtitle='about'/>
-        <NavLink navto="/projects" navtitle='projects'/> 
-        </div>
-      </header>
+      	<NavBar />
+	  </header>
 
       <main>{children}</main>
-      <footer style={{ width: 300, margin: `auto`}}>
-        © {new Date().getFullYear()}, <a href="">astrojose</a> 
+      <footer style={{ width: 400, margin: `auto`, marginTop:20}}>
+	  	
+
+	  <a href="https://github.com/astrojose">github </a>
+	  	<a href="mailto:jossey1918@gmail.com" >email </a>
+	  	<a href="https://instagram.com" >instagram </a> <br/>
+        © {new Date().getFullYear()}, <a href="astrojose.com">astrojose</a> 
         {` `}
       </footer>
     </div>

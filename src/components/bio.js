@@ -35,7 +35,7 @@ const Bio = () => {
     <div
       style={{
         display: `flex`,
-        marginBottom: rhythm(1.0),
+        marginBottom: rhythm(0.5),
         borderRadius: 10,      
       }}
     >
@@ -58,9 +58,8 @@ const Bio = () => {
           <strong>{author.name}</strong>
         </a> {author.summary} <br/>
         {` `}
-        More? see <a href={`${siteUrl}about`}>about page..</a> 
-
-        
+        More? see <a href={`${siteUrl}/about`}>about page.. </a> 
+	  or what I&rsquo;m <a href={`${siteUrl}/now`}>doing now </a>
       </p>
     </div>
   )

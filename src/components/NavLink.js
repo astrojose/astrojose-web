@@ -2,17 +2,15 @@ import React from 'react'
 import { Link } from "gatsby"
 
 const NavLink = (props) => {
-    return <div style={{
-                
-             }}>
-            <h3
+    return <li>           
+			<h3
                 style={{
                 fontFamily: `Montserrat, sans-serif`,
                 marginTop: 0,
                 fontWeight: 150,
                 paddingLeft: 10  
             }}>
-            <Link style={{
+			<Link style={{
                 boxShadow: `none`,
                 textDecoration: `none`,
                 color: `inherit`,
@@ -22,8 +20,8 @@ const NavLink = (props) => {
              >
             {props.navtitle}
             </Link>
-            </h3>
-        </div>
+			</h3>
+        </li>
         
 } 
 

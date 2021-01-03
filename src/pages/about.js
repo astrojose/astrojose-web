@@ -21,6 +21,17 @@ const About = ({ data, location }) => {
       <h3 style={{marginTop:10,marginBottom:20}}>about me</h3>
       <BioExtended />
       
+	  <h3 style={{marginTop:10,marginBottom:20}}>Setup</h3>
+	 
+	  <p>
+		
+	  </p>
+	  <ul style={{paddingLeft:40}}> 
+	  	<li> Editors: Vim (writting Code), VS Code/Sublime (Reading Code) </li>
+		<li> OS: Ubuntu 20.04 LTS </li>
+		<li > PC: HP Elitebook 840 G1, 8GB RAM, 128GB SSD, 320GB HDD </li>
+	  </ul>
+      
       <h3 style={{marginTop:10,marginBottom:20}}>contact me</h3>
       <Contact />
 

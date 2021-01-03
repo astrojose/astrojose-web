@@ -1,0 +1,21 @@
+p{
+	margin-bottom:0;
+}
+ul.menu-items {
+	list-style-type: none
+}
+ul.menu-items li{
+	display: inline-block;
+}
+
+a {
+	color: deeppink;
+	text-decoration: none !important;
+}
+
+
+@media screen and (max-width: 580px){
+	#menu {
+		display: none !important;
+	}
+}
