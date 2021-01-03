@@ -1,9 +1,9 @@
 import React from 'react'
 
  const Newsletter = () =>{
-     return <div style={{ width: 480, margin:`auto`}}>
+     return <div>
             <iframe title="My News Letter" 
-            src="https://astrojose.substack.com/embed" width="480" height="320" 
+            src="https://astrojose.substack.com/embed" width="320" height="320" 
             style={{ border:`1px solid #EEE`, background:`white`} } frameborder="0" scrolling="no"></iframe>
         </div>
  }

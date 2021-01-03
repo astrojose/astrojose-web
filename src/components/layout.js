@@ -10,10 +10,10 @@ const Layout = ({ location, title, children }) => {
 
   if (location.pathname === rootPath) {
     header = (
-      <h1
+      <h2
         style={{
-          ...scale(1.2),
-          marginBottom: rhythm(1.5),
+          ...scale(1.0),
+          marginBottom: rhythm(1.0),
           marginTop: 0,
         }}
       >
@@ -27,7 +27,7 @@ const Layout = ({ location, title, children }) => {
         >
           {title}
         </Link>
-      </h1>
+      </h2>
     )
     
   } else {
@@ -56,7 +56,7 @@ const Layout = ({ location, title, children }) => {
       style={{
         marginLeft: `auto`,
         marginRight: `auto`,
-        maxWidth: rhythm(38),
+        maxWidth: rhythm(30),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
     >
@@ -76,15 +76,15 @@ const Layout = ({ location, title, children }) => {
           minWidth: 300
           }
         }> 
-        {/* <NavLink navto="/tutorials" navtitle='Tutorials'/>
-        <NavLink navto="/writting" navtitle='Writting'/>
-        <NavLink navto="/about" navtitle='About'/> */}
+        <NavLink navto="/now" navtitle='now'/>
+        <NavLink navto="/about" navtitle='about'/>
+        <NavLink navto="/projects" navtitle='projects'/> 
         </div>
       </header>
 
       <main>{children}</main>
       <footer style={{ width: 300, margin: `auto`}}>
-        © {new Date().getFullYear()}, Astrojose
+        © {new Date().getFullYear()}, <a href="">astrojose</a> 
         {` `}
       </footer>
     </div>

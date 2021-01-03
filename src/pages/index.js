@@ -14,8 +14,10 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="home" />
+      <h3 style={{marginTop:10,marginBottom:20}}>quick about me</h3>
+      <Bio />
 
-      <h3 style={{width:300, margin:`auto`}}>Latest Articles</h3>
+      <h3 style={{marginTop:10,marginBottom:20}}>articles</h3>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
@@ -23,7 +25,7 @@ const BlogIndex = ({ data, location }) => {
             <header>
               <h3
                 style={{
-                  marginBottom: rhythm(1 / 4),
+                  marginTop:10,marginBottom:20
                 }}
               >
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>

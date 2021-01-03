@@ -3,9 +3,9 @@ module.exports = {
     title: `astrojose`,
     author: {
       name: `Joseph Emmanuel`,
-      summary: `, a fullstack developer and interested in coding ,exploring and writting about Software Development.`,
+      summary: `, a Software Developer and blogger. I learn, write and teach about code.`,
     },
-    description: `In this blog, you willf find skills for Developers.`,
+    description: `In this blog, you will find skills for modern Developers.`,
     siteUrl: `https://astrojose.com/`,
     social: {
       twitter: `astrojose_`,
@@ -62,8 +62,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Astrojose Blog`,
+        short_name: `Astrojose`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
