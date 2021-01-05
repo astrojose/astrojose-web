@@ -27,6 +27,13 @@ module.exports = {
         name: `assets`,
       },
     },
+	{
+	resolve: 'gatsby-plugin-robots-txt',
+		options: {
+			host: 'https://www.astrojose.com',
+			sitemap: 'https://www.astrojose.com/sitemap.xml',
+			policy: [{ userAgent: '*', allow: '/' }]	}
+	},
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -66,7 +73,7 @@ module.exports = {
         short_name: `Astrojose`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#ff1493`,
         display: `minimal-ui`,
         icon: `content/assets/astro-icon.png`,
       },
@@ -81,5 +88,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
+	`gatsby-plugin-sitemap`,
   ],
 }
