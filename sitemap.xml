@@ -1,0 +1,24 @@
+i<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"> 
+	<url>
+		<loc>http://www.astrojose.com/about>
+			<lastmod>2020-12-31</lastmod>
+	</url>
+	<url>
+		<loc>http://www.astrojose.com/now>
+			<lastmod>2020-12-31</lastmod>
+	</url>
+	<url>
+		<loc>http://www.astrojose.com/blog>
+			<lastmod>2020-12-31</lastmod>
+	</url>
+	<url>
+		<loc>http://www.astrojose.com/about>
+			<lastmod>2021-01-01</lastmod>
+	</url>
+	<url>
+		<loc>http://www.astrojose.com/first-pos>
+			<lastmod>2021-01-01</lastmod>
+	</url>
+</urlset>
+

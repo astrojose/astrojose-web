@@ -1,0 +1,2 @@
+er-agent: *
+Sitemap: https://astrojose.com/sitemap.xml
