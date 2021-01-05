@@ -89,5 +89,16 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
 	`gatsby-plugin-sitemap`,
+	  {
+	resolve: `gatsby-plugin-google-gtag`,
+	options: {
+					// You can add multiple tracking ids and a pageview event will be fired for all of them.
+			trackingIds: [
+			    "G-QYESHGW9FCS",			
+				"AW-CONVERSION_ID", // Google Ads / Adwords / AW
+			   "DC-FLOODIGHT_ID", // Marketing Platform ad products (Display  Manager)
+			],
+		 },
+	  },
   ],
 }
