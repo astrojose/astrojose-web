@@ -55,7 +55,7 @@ const Bio = () => {
       
       <p>
         Hi, I&rsquo;m <a href={`https://instagram.com/${social.instagram}`} target="_blank" rel="noopener noreferrer">
-          <strong>{author.name}</strong>
+          <strong>Joseph</strong>
         </a> {author.summary} <br/>
         {` `}
         More? see <a href="/about">about page.. </a> 

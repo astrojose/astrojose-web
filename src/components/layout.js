@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import NavLink from './NavLink'
 import NavBar from './navbar'
 import { rhythm, scale } from "../utils/typography"
-import "./style.css" 
+import "./../style.css" 
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`

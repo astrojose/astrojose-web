@@ -27,6 +27,7 @@ const BlogIndex = ({ data, location }) => {
                 style={{
                   marginTop:10,marginBottom:10
                 }}
+                class="catalog"
               >
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                   {title}
@@ -70,7 +71,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "MMM DD, YYYY")
             title
             description
             published

@@ -18,7 +18,7 @@ const BlogBase = ({ data, location }) => {
         return (
           <article key={node.fields.slug}>
             <header>
-              <h3
+              <h3 
                 style={{
                   marginTop:10,marginBottom:10
                 }}
