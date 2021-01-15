@@ -1,0 +1,39 @@
+p{
+	margin-bottom:0;
+}
+ul.menu-items {
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+ul.menu-items li{
+	display: inline-block;
+}
+
+h3.index-title {
+	margin-top: 10;
+	margin-bottom: 10;
+}
+
+h3.title {
+	margin-bottom: 10px;
+}
+
+a#a-link {
+	color: green;
+
+}
+a {
+	color: deeppink;
+	text-decoration: none !important;
+}
+
+footer.main {
+	width: 400px;
+	margin: auto;
+	margin-top: 20px;
+}
+@media screen and (max-width: 580px){
+	#menu {
+		display: none !important;
+	}
+}
