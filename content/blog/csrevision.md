@@ -1,6 +1,6 @@
 ---
 title: "Revising your computer science as a developer"  
-date: "2021-01-20 20:40:41"  
+date: 2021-01-20 20:40:41
 description: "power of understanding the basics"  
 published: true
 ---
