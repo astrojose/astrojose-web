@@ -1,6 +1,6 @@
 ---
 title: "Approaching language as a thinking tool"
-date: 2020-12-31T02:30:03.284Z
+date: "2020-12-31T02:30:03.284Z"
 description: "Very first post"
 published: false
 ---
