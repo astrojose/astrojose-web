@@ -1,5 +1,5 @@
 ---
-title: "Revising your computer science as a developer"  
+title: "Your computer science as a developer"  
 date: "2021-01-20 20:40:41"
 description: "power of understanding the basics"  
 published: true
@@ -8,7 +8,6 @@ published: true
 Due to massive advancement of computer technology, the concepts too  abstracted that to the point  where its nearly impossible to understand the fundamental concepts. Current frameworks and tools are build in a way that not knowing what's going on behind the scene is not a problem.   
 Things goes well until they don't. Having a clue of what is behind that fancy functionality is a kind of superpower.
 
-## disclaimer
 In this article **Computer Science** is not used to strictly mean a tradition college degree. Instead the term is used to mean the **fundamental computer concepts** surrounding your work as software developer. And by any means, I am not an expert in cs, I share thoughts that are useful to me.. and might be on you.
 
 ## some cases where the blindness is evil 
