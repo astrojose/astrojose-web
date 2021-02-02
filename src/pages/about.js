@@ -35,9 +35,7 @@ const About = ({ data, location }) => {
       <h3 style={{marginTop:10,marginBottom:20}}>contact me</h3>
       <Contact />
 
-      <h3 style={{marginTop:10,marginBottom:20}}>subscribe to my newsletter</h3>
-      I won't spam you ...
-      <Newsletter />
+      <h3 style={{marginTop:10,marginBottom:20}}>subscribe to my <a href="astrojose.substack.com/subscribe" target="_blank">newsletter.</a></h3>
     </Layout>
   )
 }
