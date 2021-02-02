@@ -74,10 +74,11 @@ const Layout = ({ location, title, children }) => {
 	  </header>
 
       <main>{children}</main>
-      <footer class="main">
-	    <a href="https://github.com/astrojose">github </a>
-	  	<a href="mailto:jossey1918@gmail.com" >email </a>
-	  	<a href="https://instagram.com" >instagram </a> <br/>
+      <footer class="main">	
+	  <a href="https://instagram.com/astrojose_" className="footer-link">instagram </a>
+	  <a href="https://github.com/astrojose" className="footer-link">github </a>
+	  <a href="twitter.com/astrojose_" className="footer-link">twitter </a>
+	  <a href="mailto:jossey1918@gmail.com" className="footer-link">get newsletter </a>
         © {new Date().getFullYear()}, <a href="astrojose.com">astrojose</a> 
       </footer>
     </div>
