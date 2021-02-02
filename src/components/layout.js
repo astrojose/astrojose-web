@@ -76,8 +76,8 @@ const Layout = ({ location, title, children }) => {
       <main>{children}</main>
       <footer class="main">	
 	  <a href="https://instagram.com/astrojose_" className="footer-link" target="_blank">instagram </a>
-	  <a href="twitter.com/astrojose_" className="footer-link" target="_blank">twitter </a>
-	  <a href="astrojose.substack.com/subscribe" className="footer-link" target="_blank">get newsletter </a> <br/>
+	  <a href="https://twitter.com/astrojose_" className="footer-link" target="_blank">twitter </a>
+	  <a href="https://astrojose.substack.com/subscribe" className="footer-link" target="_blank">get newsletter </a> <br/>
         © {new Date().getFullYear()}, <a href="/" >astrojose</a> 
       </footer>
     </div>
