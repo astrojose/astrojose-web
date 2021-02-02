@@ -75,11 +75,11 @@ const Layout = ({ location, title, children }) => {
 
       <main>{children}</main>
       <footer class="main">	
-	  <a href="https://instagram.com/astrojose_" className="footer-link">instagram </a>
-	  <a href="https://github.com/astrojose" className="footer-link">github </a>
-	  <a href="twitter.com/astrojose_" className="footer-link">twitter </a>
-	  <a href="mailto:jossey1918@gmail.com" className="footer-link">get newsletter </a>
-        © {new Date().getFullYear()}, <a href="astrojose.com">astrojose</a> 
+	  <a href="https://instagram.com/astrojose_" className="footer-link" target="_blank">instagram </a>
+	  <a href="https://github.com/astrojose" className="footer-link" target="_blank">github </a>
+	  <a href="twitter.com/astrojose_" className="footer-link" target="_blank">twitter </a>
+	  <a href="astrojose.substack.com/subscribe" className="footer-link" target="_blank">get newsletter </a> <br>
+        © {new Date().getFullYear()}, <a href="/" >astrojose</a> 
       </footer>
     </div>
   )
