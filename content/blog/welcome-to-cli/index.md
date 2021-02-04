@@ -18,7 +18,11 @@ Graphical user interface is another method of interacting with the computer base
 ### A little dive. 
 Technically, all the operations of a computer are determined by the operating system(OS). The OS controls the use of computer resources like CPU, Memory, devices to meet the user's computing requirements. At the core of OS lies a *kernel*, a component that interacts with actual machine hardware. Kernel takes input from system or user application as *system calls* and it controls the processing by interacting with CPU, Memory, Input/Output devices and devices needed for task completion. In other words, it has complete control on how the computer operates.  
 
-Graphical Interface is more abstracted in making system calls(kernel interactions) compared to Commandline Interface.In CLI,*Shell* takes input from user as commands and resolve them to programs(e.g ls) and related system calls that manages execution of the required programs. It is called shell because it surrounds(interfaces) the kernel. The user can interact directly with kernel by executing system calls.  
+Graphical Interface(for user apps) is more abstracted in making system calls(kernel interactions) compared to Commandline Interface.In CLI,*Shell* takes input from user as commands and resolve them to programs(e.g ls) and related system calls that manages execution of the required programs. It is called shell because it surrounds(interfaces) the kernel. The user can interact directly with kernel by executing system calls.  
+
+<img src="shell.png" alt="Shell & Kernel" loading="lazy"/>
+*Shell & Kernel*
+
 
 - cli vs gui
 
