@@ -3,6 +3,11 @@ margin: 0 8px;
 color: black;
 }
 
+.center-fig {
+	display:block;
+	margin:10px auto;
+}
+
 p{
 	margin-bottom:0;
 }
