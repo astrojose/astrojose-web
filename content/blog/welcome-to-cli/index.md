@@ -7,7 +7,7 @@ published: false
 Like other technical skills, understanding and getting started with Commandline Interface can be daunting. But it becomes straight-forward when you take some time and get use to it. 
 
 ### What is commandline interface(CLI)
->"In the beginning ... there was a commandline" - Johnson Stephenson  
+>"In the beginning ... there was a commandline" - Johnson Stephenson f 
 
 Commandline interface is the way of intereacting with the computer by typing comnands that are then interpreted as instructions to specific task to be performed(hence, command).  
 In early computers, commandline interface(cli) was a primary method of interaction which was then preceeded by dominance of graphical interface.
@@ -20,7 +20,7 @@ Technically, all the operations of a computer are determined by the operating sy
 
 Graphical Interface(for user apps) is more abstracted in making system calls(kernel interactions) compared to Commandline Interface.In CLI,*Shell* takes input from user as commands and resolve them to programs(e.g ls) and related system calls that manages execution of the required programs. It is called shell because it surrounds(interfaces) the kernel. The user can interact directly with kernel by executing system calls.  
 
-<img src="shell.png" alt="Shell & Kernel" loading="lazy"/>
+<img src="shell.png" class="center-fig" alt="Shell & Kernel" loading="lazy"/>
 *Shell & Kernel*
 
 
