@@ -1,5 +1,5 @@
 ---
-title: "The brightside of CS to your software development skills"  
+title: "The brightside of CS to your coding skills"  
 date: "2021-01-20 20:40:41"
 description: "Supercharging your dev game by understanding the fundamentals."  
 published: true
