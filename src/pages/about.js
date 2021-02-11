@@ -27,15 +27,14 @@ const About = ({ data, location }) => {
 		
 	  </p>
 	  <ul style={{paddingLeft:40}}> 
-	  	<li> Editors: Vim (writting Code), VS Code/Sublime (Reading Code) </li>
-		<li> OS: Ubuntu 20.04 LTS </li>
-		<li > PC: HP Elitebook 840 G1, 8GB RAM, 128GB SSD, 320GB HDD </li>
+	  	<li> Editors: Vim (writting Code), VS Code/Sublime (Reading Code) OS: Ubuntu 20.04 LTS</li>
 	  </ul>
       
       <h3 style={{marginTop:10,marginBottom:20}}>contact me</h3>
       <Contact />
 
-      <h3 style={{marginTop:10,marginBottom:20}}>subscribe to my <a href="astrojose.substack.com/subscribe" target="_blank">newsletter.</a></h3>
+      <h3 style={{marginTop:10,marginBottom:20}}>newsletter</h3>
+	<p>for updates on this blog.. please subscribe <a href="astrojose.substack.com/subscribe" target="_blank">this newsletter.</a> </p>
     </Layout>
   )
 }
