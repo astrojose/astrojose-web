@@ -13,7 +13,7 @@ const Now =  ({ data, location }) => {
       <h3 style={{marginTop:10,marginBottom:20}}>What I&rsquo;m Doing Now</h3>
 	  
 	  <p>
-		I am currently working on projects that heavily use React.js and Express/Laravel. Here some of things am actively learning
+		I am currently working on projects that heavily use React.js and Express/Laravel. Here some of things am actively doing/learning
 	  </p>
 	  <ul style={{paddingLeft:40}}> 
 		<li > Javascript Patterns especially with React.js </li>
