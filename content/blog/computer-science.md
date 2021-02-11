@@ -1,7 +1,7 @@
 ---
-title: "Your computer science as a developer"  
+title: "The brightside of CS to your software development skills"  
 date: "2021-01-20 20:40:41"
-description: "power of understanding the basics"  
+description: "Supercharging your dev game by understanding the fundamentals."  
 published: true
 ---
 Due to advancement of computer technology, the concepts are too abstracted that it is difficult to understand the fundamental concepts. Current frameworks and tools are build in a way not knowing what's going on behind the scene is not a problem.  
@@ -46,12 +46,14 @@ Choose the topic and go deep with it.
 Books are good in learning and understanding techinical concepts. Read and practice.
 
 #### Online
-Research the specific problem on internet, you dont have to know everything instantly, embrace the incremental learning. This approach may help to handle the complexity of computer science. 
+Research the specific problem on internet, you dont have to know everything instantly, embrace the incremental learning. This approach may help to handle the complexity of computer science.
+  
+  
 The most important thing here is to apply new skills quickly.   
 
-> The goal is to breakdown skills into microbehaviors, that you can internalize into your skillset.   
+> The goal is to breakdown skills into microbehaviors, that you can internalize into your skillset.     
 
-Keep fresh with fundamentals, escape the cloud of  mediocrity. 
+Keep fresh with fundamentals, escape the cloud of  mediocrity.   
   
-
+  
 What do you think? mail me at [ <a href="mailto:jossey1918@gmail.com">jossey1918@gmail.com</a> ]
