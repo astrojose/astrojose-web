@@ -4,13 +4,11 @@ date: "2021-01-20 20:40:41"
 description: "Supercharging your dev game by understanding the fundamentals."  
 published: true
 ---
-Due to advancement of computer technology, the concepts are too abstracted that it is difficult to understand the fundamental concepts. Current frameworks and tools are build in a way not knowing what's going on behind the scene is not a problem.  
-Things goes well until they don't. Having a clue of what is behind that fancy functionality is a kind of superpower.
+Due to advancement of computer technology, the concepts are too abstracted that it is difficult to understand the fundamentals. Current frameworks and tools are build in a way not knowing what's going on behind the scene is not a problem.  
+Having a clue of what is behind that fancy functionality is a kind of superpower.
 In this article Computer Science is not used to strictly mean academic training. Instead the term is used to mean the fundamental computer concepts surrounding your work as software developer.
 
 ### Defining computer science
->science is is a systematic enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the universe - <a href="https://en.wikipedia.org/wiki/Science" target="_blank">wikipedia</a>  
-
 Considering the *science* in the term, Computer Science can be defined as a discipline (branch of knowledge) that involves study of computers and computational systems. It is both theoretical and practical discipline   
 - **Theoretical**
 This is research and abstract modeling of computation and information problems e.g theories of algorithms, data structures, compilers, abstract maths and information.
