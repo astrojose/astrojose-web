@@ -16,8 +16,9 @@ const Now =  ({ data, location }) => {
 		I am currently working on projects that heavily use React.js and Express/Laravel. Here some of things am actively doing/learning
 	  </p>
 	  <ul style={{paddingLeft:40}}> 
-		<li > <h4>Chaptyp</h4> <a href="chaptyp.club">chaptyp.club</a> </li>
+		<li > <h4>Chaptyp</h4> </li>
 	  	<p> Touch typing test based in Swahili texts. It include quick touch typing guides </p>
+	  	<P> Check it out here <a href="chaptyp.club">chaptyp.club</a> </p>
 	  </ul>
       
     </Layout>
