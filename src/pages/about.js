@@ -27,7 +27,7 @@ const About = ({ data, location }) => {
 		
 	  </p>
 	  <ul style={{paddingLeft:40}}> 
-	  	<li> Editors: Vim (writting Code), VS Code/Sublime (Reading Code) OS: Ubuntu 20.04 LTS</li>
+	  	<li> Editors: Vim (writting Code), VS Code/Sublime (Reading Code) OS: Ubuntu 20.10 LTS</li>
 	  </ul>
       
       <h3 style={{marginTop:10,marginBottom:20}}>contact me</h3>
