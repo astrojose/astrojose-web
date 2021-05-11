@@ -2,7 +2,6 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 
 const Now =  ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -18,7 +17,7 @@ const Now =  ({ data, location }) => {
 	  <ul style={{paddingLeft:40}}> 
 		<li > <h4>Chaptyp</h4> </li>
 	  	<p> Touch typing test based in Swahili texts. It include quick touch typing guides </p>
-	  	<P> Check it out here <a href="chaptyp.club">chaptyp.club</a> </p>
+	  	<p> Check it out here <a href="https://astrojose.github.io/chaptype" target="_blank">here </a> </p>
 	  </ul>
       
     </Layout>
