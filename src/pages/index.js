@@ -4,8 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
-import Newsletter from "../components/newsletter"
+import CategoryHeader from "../components/category-header"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -14,10 +13,9 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="home" />
-      <h3 style={{marginTop:10,marginBottom:20}}>quick about me</h3>
       <Bio />
 
-      <h3 style={{marginTop:10,marginBottom:20}}>articles [<a id="a-link" href="/blog"> see all </a>]</h3>
+      <CategoryHeader title="Recent Posts" />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
