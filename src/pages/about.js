@@ -15,26 +15,29 @@ const About = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="about" />
-      <h3 style={{marginTop:10,marginBottom:20}}>about</h3>
-      <AboutBlog />
+      <div className='content-wrapper'>
+        <h3 style={{marginTop:10,marginBottom:20}}>about</h3>
+        <AboutBlog />
 
-      <h3 style={{marginTop:10,marginBottom:20}}>about me</h3>
-      <BioExtended />
+        <h3 style={{marginTop:10,marginBottom:20}}>about me</h3>
+        <BioExtended />
+        
+      <h3 style={{marginTop:10,marginBottom:20}}>Setup</h3>
+    
+      <p>
       
-	  <h3 style={{marginTop:10,marginBottom:20}}>Setup</h3>
-	 
-	  <p>
-		
-	  </p>
-	  <ul style={{paddingLeft:40}}> 
-	  	<li> Editors: Vim (writting Code), VS Code/Sublime (Reading Code) OS: Ubuntu 20.10 LTS</li>
-	  </ul>
-      
-      <h3 style={{marginTop:10,marginBottom:20}}>contact me</h3>
-      <Contact />
+      </p>
+      <ul style={{paddingLeft:40}}> 
+        <li> Editors: Vim (writting Code), VS Code/Sublime (Reading Code) OS: Ubuntu 20.10 LTS</li>
+      </ul>
+        
+        <h3 style={{marginTop:10,marginBottom:20}}>contact me</h3>
+        <Contact />
 
-      <h3 style={{marginTop:10,marginBottom:20}}>newsletter</h3>
-	<p>for updates on this blog.. please subscribe <a href="astrojose.substack.com/subscribe" target="_blank">this newsletter.</a> </p>
+        <h3 style={{marginTop:10,marginBottom:20}}>newsletter</h3>
+    <p>for updates on this blog.. please subscribe <a href="astrojose.substack.com/subscribe" target="_blank">this newsletter.</a> </p> 
+
+      </div>
     </Layout>
   )
 }

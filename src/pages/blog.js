@@ -12,33 +12,36 @@ const BlogBase = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="blog" />
+      <div className='content-wrapper'>
+
       <h3 style={{marginTop:10,marginBottom:20}}>articles</h3>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
-          <article key={node.fields.slug}>
-            <header>
-              <h3 
-                style={{
-                  marginTop:10,marginBottom:10
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-            </header>
-            <section>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </section>
-          </article>
+            <article key={node.fields.slug}>
+              <header>
+                <h3 
+                  style={{
+                    marginTop:10,marginBottom:10
+                  }}
+                >
+                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                    {title}
+                  </Link>
+                </h3>
+              </header>
+              <section>
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: node.frontmatter.description || node.excerpt,
+                  }}
+                />
+              </section>
+            </article>
         )
       })}
-      
+      </div>
+
     </Layout>
   )
 }

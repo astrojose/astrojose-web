@@ -3,7 +3,7 @@ module.exports = {
     title: `astrojose`,
     author: {
       name: `Joseph Emmanuel`,
-      summary: `, a Software Developer and blogger. I learn, write and teach about code.`,
+      summary: `Software Developer and blogger. I learn, write and sometimes teach about code.`,
     },
     description: `In this blog, you will find skills for modern Developers.`,
     siteUrl: `https://astrojose.com/`,
@@ -41,7 +41,8 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 590
+              
             },
           },
           {

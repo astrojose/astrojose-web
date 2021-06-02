@@ -9,7 +9,7 @@ const Bio = () => {
     query BioQuery {
       avatar: file(absolutePath: { regex: "/profile.png/" }) {
         childImageSharp {
-          fixed(width: 125, height: 125){
+          fixed(width: 200, height: 200){
             ...GatsbyImageSharpFixed
           }
         }
@@ -32,28 +32,20 @@ const Bio = () => {
 
   const { author, social, siteUrl } = data.site.siteMetadata
   return (
-    <div class="bio-card">
+    <div class="bio-card content-wrapper">
       <div class="image">
         <Image
           fixed={data.avatar.childImageSharp.fixed}
           alt={author.name}
-          style={{
-            marginRight: rhythm(1 / 2),
-            marginBottom: 0,
-            minWidth: 50,
-            borderRadius: `100%`,
-          }}
-          imgStyle={{
-            borderRadius: `50%`,
-          }}
         />
       </div>
       <div class="bio">
-        <p>
-          Hi, I&rsquo;m <a href={`https://instagram.com/${social.instagram}`} target="_blank" rel="noopener noreferrer">
-            <strong>Joseph</strong>
-          </a> {author.summary} <br/>
+        
+          <h2> Hi, I&rsquo;m <a href={`https://instagram.com/${social.instagram}`} target="_blank" rel="noopener noreferrer">
+            <strong>Joseph</strong></a> </h2>
+            <p>{author.summary}</p>
           {` `}
+        <p>
           More? see <a href="/about">about page.. </a> 
       or what I&rsquo;m <a href="/now">doing now </a>
         </p>

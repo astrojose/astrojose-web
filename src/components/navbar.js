@@ -1,5 +1,5 @@
 import React from 'react'
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import Image from "gatsby-image"
 import { rhythm, scale } from "../utils/typography"
 
@@ -32,19 +32,24 @@ const NavBar = () =>{
 `)
 
 const { author, social, siteUrl } = data.site.siteMetadata
-const logoStyle = {
-  height:`70px`
-}
+
 	return (
-        <div class="navbar">
-          <div class="logo"><a href="/" >
+        <div class="navbar content-wrapper">
+          <div class="logo">
+            <Link to="/" >
             <Image
               fixed={data.avatar.childImageSharp.fixed}
               alt={author.name}
+              id='profile-img'
             />
-          </a>
+          </Link>
           </div>
-          <div class="menu">
+          <div className="hamburger-conteiner m-10">
+            <div className='humburger'></div>
+            <div className='humburger'></div>
+            <div className='humburger'></div>
+          </div>
+          <div class="menu ">
             <ul class="menu-items">
               <NavLink navto="/now" navtitle='now'/>
               <NavLink navto="/blog" navtitle='blog'/> 
