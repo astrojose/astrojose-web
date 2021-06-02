@@ -71,6 +71,7 @@ ul.menu-items li{
 	display:flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
 }
 
 p.title {
@@ -92,7 +93,7 @@ h3.title {
 
 a#a-link {
 	color: green;
-
+	text-decoration: none !important;
 }
 
 .logo{
@@ -116,8 +117,7 @@ a#a-link {
 }
 
 .image {
-	min-width: 200px;
-	height: 200px;
+	margin: 20px 20px;
 }
 
 .bio {
@@ -127,22 +127,36 @@ a#a-link {
 
 category-header {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
 	border-bottom: 5px solid rgb(167, 114, 114);
 }
-
-.category-header.more {
-	float:right;
+.category-header>.title{
+	display: inline-block;
+	margin:0 auto;
+	width: fit-content;
+}
+.category-header>.more{
+	width: fit-content;
+	display: inline-block;
+	float: right;
 }
 
-span.title {
-	display: contents;
+.post-entry{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-span.more {
-	display: contents;
+.post-entry-title{	
+	margin: 0 10px;
+	padding:0 10px;
 }
+
+.post-date{
+	margin: 0 10px;
+	padding:0 10px;
+}
+
 
 /* Footer */
 footer {
@@ -157,14 +171,26 @@ footer {
 	bottom:0;
 	width: 100%;;
 	height:60px;   /* Height of the footer */
+	
 }
 
+.post-entry{
+	display: inline-block;
+}
+
+.post-date{
+	display: inline-block;
+}
 
 /* Large Mobile */
 @media screen and (max-width: 768px){
+	body {
+		font-size: 1.5rem;
+	}
 	.navbar {
 		display: flex;
 		flex-direction: row;
+		align-items: center;
 		width: 100%;
 	}
 
@@ -202,6 +228,10 @@ footer {
 #gatsby-focus-wrapper > main > div.hero > div > div.image > div > picture > img {
 	border-radius: 10%;
 	border: 5px solid rgb(167, 114, 114);
+}
+
+.category-header {
+	border-bottom: 2px dotted rgb(83, 82, 82);
 }
 
 .bio>p.name{

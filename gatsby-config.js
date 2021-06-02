@@ -3,7 +3,7 @@ module.exports = {
     title: `astrojose`,
     author: {
       name: `Joseph Emmanuel`,
-      summary: `Software Developer and blogger. I learn, write and sometimes teach about code.`,
+      summary: `A software Developer. I write and sometimes teach about code.`,
     },
     description: `In this blog, you will find skills for modern Developers.`,
     siteUrl: `https://astrojose.com/`,

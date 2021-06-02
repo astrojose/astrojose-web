@@ -1,7 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql, Link } from "gatsby"
 import Image from "gatsby-image"
-import { rhythm, scale } from "../utils/typography"
 
 import NavLink from './NavLink'
 

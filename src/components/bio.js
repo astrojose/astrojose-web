@@ -2,7 +2,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
-import { rhythm } from "../utils/typography"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -46,8 +45,8 @@ const Bio = () => {
             <p>{author.summary}</p>
           {` `}
         <p>
-          More? see <a href="/about">about page.. </a> 
-      or what I&rsquo;m <a href="/now">doing now </a>
+          See <a href="/about">about me </a>  
+      and what I&rsquo;m <a href="/now">doing now </a>
         </p>
       </div>
     </div>
