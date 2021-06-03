@@ -3,7 +3,7 @@ title: "Understanding keys and addresses in bitcoin"
 date: "2021-05-24 20:40:41"
 description: "Meet the keys to bitcoin blockchain." 
 category: "blockchain"
-published: true
+published: false
 ---
 Understanding the blockain and decentralized applications is hard. But learning fundamental concepts increases the speed of understanding. In this article, concepts of digital keys, signatures and addresses are explored based on programming perspective. They can be really useful when you want to implement blockchain apps like wallets, mining softwares, bitcoin explores, bitcoin ecommerce etc. 
 
