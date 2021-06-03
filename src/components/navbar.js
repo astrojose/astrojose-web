@@ -33,7 +33,7 @@ const NavBar = () =>{
 const { author, social, siteUrl } = data.site.siteMetadata
 
 	return (
-        <div class="navbar content-wrapper">
+        <div class="navbar content-wrapper shadow">
           <div class="logo">
             <Link to="/" >
             <Image

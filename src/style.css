@@ -11,9 +11,17 @@ body {
 h3{
 	font-family: monospace;
 }
+h1{
+	margin: 10px 0 !important; 
+}
 
 h1{
+	font-size: 1.5rem;
+}
+
+h2{
 	margin:10px 0;
+	font-family: monospace;
 }
 
 .main-wrapper {
@@ -23,8 +31,8 @@ h1{
 .content-wrapper {
 	max-width: 920px;
 	min-width: 320px;
-  margin:20px auto;
-  padding:20px;
+	margin:10px auto;
+	padding:10px;
 
 }
 
@@ -42,7 +50,12 @@ text-decoration: none;
 	display:block;
 	margin:10px auto;
 }
-
+#gatsby-focus-wrapper > main > div > article > header > p{
+	margin: 10px 0 !important;
+}
+#gatsby-focus-wrapper > header > div > div.logo > a > div > picture > img{
+	margin: 0 0;
+}
 p{
 	margin-bottom:0;
 }
@@ -128,7 +141,7 @@ a#a-link {
 	margin: auto;
 }
 
-category-header {
+.category-header {
 	display: flex;
 	justify-content: space-between;
 	border-bottom: 5px solid rgb(167, 114, 114);
@@ -186,6 +199,13 @@ footer {
 	display: inline-block;
 }
 
+.shadow {
+  box-shadow: 0 6px 4px -4px rgb(161, 161, 161);
+}
+
+.content-wrapper.shadow{
+	padding: 0 10px;
+}
 /* Large Mobile */
 @media screen and (max-width: 768px){
 	body {
