@@ -41,9 +41,9 @@ a {
 	text-decoration: none !important;
 }
 .footer-link {
-margin: 0 8px;
-color: black;
-text-decoration: none;
+	margin: 0 8px;
+	color: black;
+	text-decoration: none !important; 
 }
 
 .center-fig {
@@ -122,7 +122,7 @@ a#a-link {
 
 /* Main */
 .hero {
-	background-color: rgb(248, 242, 242);
+	background-color: rgb(243, 242, 242);
 }
 
 .bio-card {
@@ -148,9 +148,9 @@ a#a-link {
 }
 .category-header>.title{
 	display: inline-block;
-	margin:0 auto;
 	width: fit-content;
-	font-weight: 500;
+	font-weight: 600;
+
 }
 .category-header>.more{
 	width: fit-content;
