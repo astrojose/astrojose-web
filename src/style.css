@@ -12,6 +12,9 @@ h3{
 	font-family: monospace;
 }
 
+h1{
+	margin:10px 0;
+}
 
 .main-wrapper {
 	width:100%;
@@ -92,7 +95,7 @@ h3.title {
 }
 
 a#a-link {
-	color: green;
+	color: #46e4ca;
 	text-decoration: none !important;
 }
 
@@ -134,6 +137,7 @@ category-header {
 	display: inline-block;
 	margin:0 auto;
 	width: fit-content;
+	font-weight: 500;
 }
 .category-header>.more{
 	width: fit-content;
@@ -187,6 +191,10 @@ footer {
 	body {
 		font-size: 1.5rem;
 	}
+	.content-wrapper{
+		margin:10px 0px;
+		padding: 10px;
+	}
 	.navbar {
 		display: flex;
 		flex-direction: row;
@@ -198,6 +206,10 @@ footer {
 		display: flex;
 		flex-direction: column-reverse;
 		align-items: center;
+	}
+	.bio-card.content-wrapper{
+		margin:10px 0;
+		padding: 10px;
 	}
 	.menu{
 		display: none;
@@ -211,6 +223,29 @@ footer {
 		border:1px solid #46e4;
 		margin-right: 10px;
 		cursor:help;
+
+	}
+	#gatsby-focus-wrapper > header > div > div.hamburger-conteiner.m-10{
+		height: 41px;
+	}
+
+	h2{
+		font-family: monospace;
+		font-size: 1.2rem;
+		margin: 10px 0;
+
+	}
+	#gatsby-focus-wrapper > main > div > article > header > h1{
+		font-size: 1.2rem;	
+		margin: 0;
+	}
+
+	#gatsby-focus-wrapper > main > div > article > header > p{
+		margin: 10px 2px 10px 2px;	
+	}
+
+	div.image{
+		margin:10px;
 	}
 	
 	.humburger {
@@ -221,7 +256,17 @@ footer {
 	}
 
 	#gatsby-focus-wrapper > header > div > div.hamburger-conteiner.m-10{
-		margin-right:10px;
+		margin: 5px 10px;
+	}
+	#gatsby-focus-wrapper > header > div > div.logo > a > div > picture > img{
+		margin:1px 1px;
+	}
+	#gatsby-focus-wrapper > main > div.hero > div > div.image > div > picture > img{
+		margin:0;
+	}
+	.navbar.content-wrapper{
+		margin: 10px 0;
+		padding: 10px;
 	}
 }
 

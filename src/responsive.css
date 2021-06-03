@@ -1,0 +1,80 @@
+
+/* Large Mobile */
+@media screen and (max-width: 768px){
+	body {
+		font-size: 1rem;
+	}
+	.navbar {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		width: 100%;
+	}
+
+	.navbar.content-wrapper{
+		padding: 10px 0;
+		margin: 10px 0;
+	}
+
+	h2{
+		margin:10px 0;
+	}
+
+
+	.bio-card {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.bio-card.content-wrapper{
+		margin:10px 0;
+	}
+	
+	div.content-wrapper{
+		margin:10px 0;
+		padding: 10px;
+	}
+
+	h2{
+		font-family: monospace;
+		font-size: 1.3rem;
+	}
+	.menu{
+		display: none;
+	}
+
+	.hamburger-container {
+		display: flex;
+		flex-direction: column;
+		width: fit-content;
+		height: fit-content;
+		border:1px solid #46e4;
+		margin-right: 10px;
+		cursor:help;
+	}
+	
+	.humburger {
+		height:5px;
+		width: 38px;
+		background-color: #46e4ca;
+		margin-top: 5px;
+	}
+
+	#gatsby-focus-wrapper > header > div > div.hamburger-conteiner.m-10{
+		margin-right:10px;
+	}
+
+	#gatsby-focus-wrapper > header > div > div.logo > a > div > picture > img{
+		margin: auto;
+    
+	}
+
+	#gatsby-focus-wrapper > header > div > div.logo > a > div > img{
+		margin:auto;
+	}
+
+    .hide-humb {
+        display: none;
+    }
+}
