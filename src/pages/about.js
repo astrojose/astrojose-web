@@ -16,26 +16,24 @@ const About = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="about" />
       <div className='content-wrapper'>
-        <h3 style={{marginTop:10,marginBottom:20}}>about</h3>
+        <h3 style={{marginTop:10,marginBottom:20}}>About</h3>
         <AboutBlog />
 
-        <h3 style={{marginTop:10,marginBottom:20}}>about me</h3>
+        <h3 style={{marginTop:10,marginBottom:20}}>About Me</h3>
         <BioExtended />
         
       <h3 style={{marginTop:10,marginBottom:20}}>Setup</h3>
     
-      <p>
-      
-      </p>
-      <ul style={{paddingLeft:40}}> 
-        <li> Editors: Vim (writting Code), VS Code/Sublime (Reading Code) OS: Ubuntu 20.10 LTS</li>
+      <ul> 
+        <li> Editors: Vim & VS Code</li>
+        <li> OS: Ubuntu 20.10 LTS</li>
       </ul>
         
-        <h3 style={{marginTop:10,marginBottom:20}}>contact me</h3>
+        <h3 style={{marginTop:10,marginBottom:20}}>Contact Me</h3>
         <Contact />
 
-        <h3 style={{marginTop:10,marginBottom:20}}>newsletter</h3>
-    <p>for updates on this blog.. please subscribe <a href="astrojose.substack.com/subscribe" target="_blank">this newsletter.</a> </p> 
+        <h3 style={{marginTop:10,marginBottom:20}}>Newsletter</h3>
+    <p>To have frequent updates about what I write.. please subscribe to this <a href="astrojose.substack.com/subscribe" target="_blank"> newsletter.</a> </p> 
 
       </div>
     </Layout>

@@ -3,7 +3,6 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 
 const BlogBase = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -14,7 +13,7 @@ const BlogBase = ({ data, location }) => {
       <SEO title="blog" />
       <div className='content-wrapper'>
 
-      <h3 style={{marginTop:10,marginBottom:20}}>articles</h3>
+      <h3 style={{marginTop:10,marginBottom:20}}>Articles</h3>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (

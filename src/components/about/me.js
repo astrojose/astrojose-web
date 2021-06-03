@@ -31,10 +31,14 @@ const BioExtended = () => {
       	}}
 		>
 		<p>
-        Namely,Joseph Emmanuel, a software developer, mostly self-taught. 
-        I code on freelance projects as I currently do not have a full time job. 
-        I work on a number of side projects that I share in this blog.  <br/>
-        <em>What am working on now?</em> see <a href="/now">my now page</a>
+        My name is Joseph Emmanuel,  I am a self taught software developer. 
+        I mostly work on freelance and personal projects. 
+        I work on a number of side projects that I share in this blog. 
+		<br/>
+		<br/>
+
+        At any moment I am either learning or building stuff. I update my current status (projects and technology focus) 
+       on <a href="/now">my now page</a>
             
         </p>
 	</div>

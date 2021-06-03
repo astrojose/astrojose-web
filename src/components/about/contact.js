@@ -12,7 +12,7 @@ const Contact = () => {
       	}}
 		>
 		<p>
-			For anything contact me at <a href="mailto:jossey1918@gmail.com">jossey1918@gmail.com</a>
+			For anything contact me at <a href="mailto:jose@astrojose.xyz">jose@astrojose.xyz</a>
 		</p>
 	
 		</div>

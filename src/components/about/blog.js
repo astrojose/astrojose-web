@@ -2,7 +2,6 @@ import React from 'react'
 import { rhythm } from "../../utils/typography"
 
 const AboutBlog = () => {
-
 	return (
 	<div
 		style={{
@@ -12,11 +11,8 @@ const AboutBlog = () => {
       	}}
 		>
 		<p>
-        	As a Self-taught developer, my development journey 
-        	includes a lot of learnnig(a looot..). Here I blog 
-        	skills and my(so far) thoughts in Software Development. 
-        	All that are based on how to learn and master software
-        	 development skills.    
+            Here I write about skills and ideas on Software Development. 
+        	Mostly based on how I learn and master software development skills.    
       	</p>
 	</div>
 )}
