@@ -9,17 +9,18 @@ const Now =  ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="now" />
-      <h3 style={{marginTop:10,marginBottom:20}}>What I&rsquo;m Doing Now</h3>
-	  
-	  <p>
-		I am currently working on projects that heavily use React.js and Express/Laravel. Here some of things am actively doing/learning
-	  </p>
-	  <ul style={{paddingLeft:40}}> 
-		<li > <h4>Chaptyp</h4> </li>
-	  	<p> Touch typing test based in Swahili texts. It include quick touch typing guides </p>
-	  	<p> Check it out here <a href="https://astrojose.github.io/chaptype" target="_blank">here </a> </p>
-	  </ul>
+      <div className='content-wrapper'>
+        <h3 style={{marginTop:10,marginBottom:20}}>What I&rsquo;m Doing Now</h3>
       
+        <p>
+        I am currently working on projects that heavily use React.js and Express/Laravel. Here some of things am actively doing/learning
+        </p>
+        <ul style={{paddingLeft:40}}> 
+        <li > <h4>Chaptyp</h4> </li>
+          <p> Touch typing test based in Swahili texts. It include quick touch typing guides </p>
+          <p> Check it out here <a href="https://astrojose.github.io/chaptype" target="_blank">here </a> </p>
+        </ul>
+      </div>
     </Layout>
   )
 }

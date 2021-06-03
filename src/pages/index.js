@@ -4,8 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
-import Newsletter from "../components/newsletter"
+import CategoryHeader from "../components/category-header"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -14,37 +13,46 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="home" />
-      <h3 style={{marginTop:10,marginBottom:20}}>quick about me</h3>
-      <Bio />
+      <div className='hero'>
+        <Bio />
+      </div>
+      <div className='content-wrapper'>
+        <CategoryHeader title="Recent Posts" />
+        {posts.map(({ node }) => {
+          const title = node.frontmatter.title || node.fields.slug
+          return (
+            <article key={node.fields.slug}>
+              <div className="entry"> 
+                <div className='post-date'>06 May</div>
+                <div className='post-entry-title'>
+                <header>
+                  <h3
+                    style={{
+                      marginTop:10,marginBottom:10
+                    }}
+                    class="catalog"
+                  >
+                    <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                      {title}
+                    </Link>
+                  </h3>
+                </header>
+                <section>
+                  <p
+                    dangerouslySetInnerHTML={{
+                      __html: node.frontmatter.description || node.excerpt,
+                    }}
+                  />
+                </section>
 
-      <h3 style={{marginTop:10,marginBottom:20}}>articles [<a id="a-link" href="/blog"> see all </a>]</h3>
-      {posts.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug
-        return (
-          <article key={node.fields.slug}>
-            <header>
-              <h3
-                style={{
-                  marginTop:10,marginBottom:10
-                }}
-                class="catalog"
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-            </header>
-            <section>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </section>
-          </article>
-        )
-      })}
-      
+              </div>
+
+              </div>
+            </article>
+          )
+        })}
+
+      </div>
     </Layout>
   )
 }
