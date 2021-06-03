@@ -23,7 +23,7 @@ const BlogIndex = ({ data, location }) => {
           return (
             <article key={node.fields.slug}>
               <div className="entry"> 
-                {/* <div className='post-date'>06 May</div> */}
+                <div className='post-date'>06 May</div>
                 <div className='post-entry-title'>
                 <header>
                   <h3
