@@ -26,7 +26,7 @@ const About = ({ data, location }) => {
     
       <ul> 
         <li> Editors: Vim & VS Code</li>
-        <li> OS: Ubuntu 20.10 LTS</li>
+        <li> OS: Ubuntu 20.10 </li>
       </ul>
         
         <h3 style={{marginTop:10,marginBottom:20}}>Contact Me</h3>

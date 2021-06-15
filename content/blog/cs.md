@@ -1,5 +1,5 @@
 ---
-title: "Improving coding skills by learning computer science"  
+title: "Improving coding skills with some computer science concepts"
 date: "2021-01-20 20:40:41"
 description: "Supercharging your dev game by understanding the fundamentals."  
 published: true
