@@ -23,7 +23,7 @@ const BlogIndex = ({ data, location }) => {
           return (
             <article key={node.fields.slug}>
               <div className="entry"> 
-                <div className='post-date'>06 May</div>
+                <div className='post-date'>{node.frontmatter.date}</div>
                 <div className='post-entry-title'>
                 <header>
                   <h3
@@ -78,7 +78,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMM DD, YYYY")
+            date(formatString: "MMM DD")
             title
             description
             published

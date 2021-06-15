@@ -35,13 +35,14 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
                 marginBottom: rhythm(1),
               }}
             >
-              {post.frontmatter.date}
+              {post.frontmatter.date}, by <Link to='/about'>Joseph </Link>
             </p>
           </header>
-          <section dangerouslySetInnerHTML={{ __html: post.html }} />
+          <section className='post-content' dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr
             style={{
               marginBottom: rhythm(1),
+              marginTop: rhythm(1),
             }}
           />
         </article>
