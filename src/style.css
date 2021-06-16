@@ -285,6 +285,9 @@ footer {
 		margin: 10px 0;
 		padding: 10px;
 	}
+	.post-content {
+		font-size: 1rem !important;
+	}
 }
 
 #gatsby-focus-wrapper > main > div.hero > div > div.image > div > picture > img {
