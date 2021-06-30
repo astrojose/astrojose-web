@@ -1,6 +1,6 @@
 
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import Image from "gatsby-image"
 
 const Bio = () => {
@@ -40,8 +40,8 @@ const Bio = () => {
       </div>
       <div class="bio">
         
-          <h2> Hi, I&rsquo;m <a href={`https://instagram.com/${social.instagram}`} target="_blank" rel="noopener noreferrer">
-            <strong>Joseph</strong></a> </h2>
+          <h2> Hi, I&rsquo;m <Link to='/about'>  
+            <strong>Joseph</strong></Link> </h2>
             <p>{author.summary}</p>
           {` `}
         <p>

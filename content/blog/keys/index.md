@@ -1,11 +1,11 @@
 ---
-title: "Understanding keys and addresses in bitcoin"  
+title: "Understanding bitcoin keys from scratch "  
 date: "2021-06-02 20:40:41"
 description: "Meet the keys to bitcoin blockchain."
 category: "blockchain"
 published: true
 ---
-Understanding the blockchain and decentralized applications is hard. But learning fundamental concepts increases the speed of understanding. In this article, concepts of digital keys, signatures and addresses are explored based on programming perspective. They can be really useful when you want to implement blockchain apps like wallets, mining software, bitcoin explores, bitcoin e-commerce etc.
+Understanding the blockchain and decentralized applications is hard. Learning fundamental concepts makes it easier to understand. In this article, basic concepts of bitcoin keys are explored based on programming perspective. They can be really useful when you want to implement blockchain apps like wallets, mining software, bitcoin explores, bitcoin e-commerce etc.
 
 ## What is decentralization in bitcoin
 Decentralized systems are are interconnected systems  where no party has overall control of they system. As digital payment system, bitcoin provide this form of system where there is no central entity (like banks) that control the flow of transactions.
@@ -14,11 +14,10 @@ Decentralized systems are are interconnected systems  where no party has overall
 Digital keys and signatures are fundamental to decentralization of trust. Bitcoin uses pair of related keys(private and public) based on public-key cryptography. Private keys are only known to owner while public keys are may be known by anyone. A sender encrypts a message with receiver's public key(shared publicly) , and sends it publicly, it can only be decrypted with receiver's private keys.  
 <br/>
 
-
 In bitcoin transaction *Digital Signature or witness* is used to prove that one has a private key connected to public key without revealing the private key. Private keys are used to produce digital signature. While signature can be *verified* by anyone with public key, it can only be *produced* by someone with knowledge of private key. This concept of verification of transactions is important because bitcoin is based on peer to peer network.
 
 ## Comparing to bank account terms
-Recipient's public key is not shared publicly itself, it is represented by bitcoin address which works as beneficiary name in banking. Private keys are like pass code and public keys are like account numbers. Witness or digital signature is like normal hand signature that shows you are the owner of account.
+Recipient's public key is not shared publicly itself, it is represented by bitcoin address which works as beneficiary name in banking. Private keys are like passcode and public keys are like account numbers. Witness or digital signature is like normal hand signature that shows you are the owner of account.
 
 ## The fun part: generating keys
 Basically keys are just strings of characters e.g `30848827712021293731208415302456569301499384652082` in decimal or     `4433d156ea29436f29a94e0ccc5d58df8e57bdc8583c32` in hexadecimal.    
