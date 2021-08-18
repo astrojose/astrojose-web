@@ -10,6 +10,8 @@ In this article Computer Science is not used to strictly mean academic training.
 
 Computer Science is a discipline or branch of knowledge that involves study of computers and computational systems.   
 
+> Formal Computer Science is great, but don't let it stop you - Linus Tovalds
+
 ### Computer science and software engineering
 As a developer at work, you are the later. Computer science lays down the fundamentals, Software engineering  applies the laid fundamentals in building scalable and reliable computer systems. These are two mindsets you have to keep in sync. 
 
