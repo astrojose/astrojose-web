@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Joseph Emmanuel`,
+    title: `astrojose`,
     author: {
       name: `Joseph Emmanuel`,
       summary: `A software Developer. I write and sometimes teach about code.`,
@@ -10,6 +10,7 @@ module.exports = {
     social: {
       twitter: `astrojose_`,
       instagram: `astrojose_`,
+      github:`astrojose`,
     },
   },
   plugins: [

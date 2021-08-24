@@ -2,7 +2,6 @@ import React from "react"
 import NavBar from './navbar'
 import Footer from './footer'
 import Helmet from "react-helmet"
-import "./../style.css" 
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
