@@ -49,4 +49,4 @@ The most important thing here is to apply new skills quickly.
 
 Keep fresh with fundamentals, escape the cloud of  mediocrity.
 
-What do you think? mail me at [ <a href="mailto:jose@astrojose.xyz">jose@astrojose.xyz</a> ]
+What do you think? mail me at [ <a href="mailto:jossey1918@gmail.com">jossey1918@gmail.com</a> ]

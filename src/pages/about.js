@@ -39,25 +39,6 @@ const About = ({ data, location }) => {
 
 		    </div>
 	    </article>
-	    
-	    <section class="cta-section theme-bg-light py-5">
-		    <div class="container text-center">
-			    <h2 class="heading">Newsletter</h2>
-			    <div class="intro">Welcome to my blog. Subscribe and get my latest blog post in your inbox.</div>
-			    <form class="signup-form form-inline justify-content-center pt-3">
-                    <div class="form-group">
-                        <label class="sr-only" for="semail">Your email</label>
-                        <input 
-                          type="email" 
-                          id="semail" 
-                          name="semail1" 
-                          class="form-control mr-md-1 semail" 
-                          placeholder="Enter email"/>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Subscribe</button>
-                </form>
-		    </div>
-	    </section>
     </Layout>
   )
 }
@@ -66,7 +47,7 @@ export default About
 
 export const pageQuery = graphql`
   query {
-    avatar: file(absolutePath: { regex: "/profile.png/" }) {
+    avatar: file(absolutePath: { regex: "/astro-icon.png/" }) {
       childImageSharp {
         fixed(width: 180, height: 180){
           ...GatsbyImageSharpFixed
@@ -85,6 +66,7 @@ export const pageQuery = graphql`
         social{
           instagram
           twitter
+          github
         } 
       }
     }

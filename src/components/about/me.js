@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import { rhythm } from "../../utils/typography"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -38,7 +39,7 @@ const BioExtended = () => {
 		<br/>
 
         At any moment I am either learning or building stuff. I update my current status (projects and technology focus) 
-       on <a href="/now">my now page</a>
+       on <Link to="/now">my now page</Link>
             
         </p>
 	</div>

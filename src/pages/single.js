@@ -21,7 +21,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 		    <div class="container">
 			    <header class="blog-post-header">
 				    <h2 class="title mb-2">{post.frontmatter.title}</h2>
-				    <div class="meta mb-3"><span class="date">{post.frontmatter.date}</span><span class="time">5 min read</span></div>
+				    <div class="meta mb-3"><span class="date">{post.frontmatter.date}</span><span class="time">{post.timeToRead} min read</span></div>
 			    </header>
 			    
 			    <div class="blog-post-body" dangerouslySetInnerHTML={{ __html: post.html }}/>
@@ -46,7 +46,7 @@ export default BlogPostTemplate
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
-		avatar: file(absolutePath: { regex: "/profile.png/" }) {
+		avatar: file(absolutePath: { regex: "/astro-icon.png/" }) {
       childImageSharp {
         fixed(width: 180, height: 180){
           ...GatsbyImageSharpFixed
@@ -70,6 +70,7 @@ export const pageQuery = graphql`
     markdownRemark( fields: { slug: { eq: $slug }},
     ) {
       id
+      timeToRead
       excerpt(pruneLength: 160)
       html
       frontmatter {

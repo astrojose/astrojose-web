@@ -15,13 +15,13 @@ const BlogIndex = ({ data, location }) => {
       />
       <section className="cta-section theme-bg-light py-5">
 		    <div className="container text-center">
-			    <h2 className="heading">{ author.name}</h2> <hr/>
+			    <h2 className="heading">Welcome !!</h2> <hr/>
 			    <div className="intro">
             <p>{description}</p>
             {/* <p>Plese subscribe and get my latest blog post in your inbox.</p> */}
             <p>
-          See <a href="/about">about me </a>  
-      and what I&rsquo;m <a href="/now">doing now </a>
+          See <Link to="/about">about me </Link>  
+      and what I&rsquo;m <Link to="/now">doing now </Link>
         </p>
           
           </div>
@@ -50,7 +50,7 @@ const BlogIndex = ({ data, location }) => {
                     </h3>
 						    <div className="meta mb-1">
                   <span className="date">
-                  {node.frontmatter.date}</span><span className="time">5 min read</span><span className="comment"></span></div>
+                  {node.frontmatter.date}</span><span className="time">{ node.timeToRead } min read</span><span className="comment"></span></div>
 						    <div className="intro"><p
                     dangerouslySetInnerHTML={{
                       __html: node.excerpt,
@@ -78,7 +78,7 @@ export default BlogIndex
 
 export const pageQuery = graphql`
   query {
-    avatar: file(absolutePath: { regex: "/profile.png/" }) {
+    avatar: file(absolutePath: { regex: "/astro-icon.png/" }) {
       childImageSharp {
         fixed(width: 180, height: 180){
           ...GatsbyImageSharpFixed
@@ -97,6 +97,7 @@ export const pageQuery = graphql`
         social{
           instagram
           twitter
+          github
         } 
       }
     }
@@ -107,6 +108,7 @@ export const pageQuery = graphql`
 	) {
       edges {
         node {
+          timeToRead
           excerpt
           fields {
             slug
