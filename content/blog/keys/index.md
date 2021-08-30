@@ -1,5 +1,5 @@
 ---
-title: "Understanding keys in bitcoin"  
+title: "Understanding keys in bitcoin from the scratch with javascript"  
 date: "2021-06-02 20:40:41"
 description: "Meet the keys to bitcoin blockchain."
 category: "blockchain"
