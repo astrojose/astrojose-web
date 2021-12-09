@@ -18,6 +18,12 @@ h1, h2{
 .main-wrapper {
 	width:100%;
 }
+.logo > a:nth-child(1){
+  color: deeppink;
+  font-weight: 250;
+  font-size: 1.5rem;
+  text-decoration: none !important;
+}
 
 .content-wrapper {
 	max-width: 920px;
@@ -43,9 +49,6 @@ a {
 }
 #gatsby-focus-wrapper > main > div > article > header > p{
 	margin: 10px 0 !important;
-}
-#gatsby-focus-wrapper > header > div > div.logo > a > div > picture > img{
-	margin: 0 0;
 }
 p{
 	margin-bottom:0;
@@ -113,7 +116,6 @@ a#a-link {
 
 /* Main */
 .hero {
-	background-color: rgb(243, 242, 242);
 }
 
 .bio-card {

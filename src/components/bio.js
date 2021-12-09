@@ -32,13 +32,7 @@ const Bio = () => {
   const { author, social, siteUrl } = data.site.siteMetadata
   return (
     <div class="bio-card content-wrapper">
-      <div class="image">
-        <Image
-          fixed={data.avatar.childImageSharp.fixed}
-          alt={author.name}
-        />
-      </div>
-      <div class="bio">
+     <div class="bio">
         
           <h2> Hi, I&rsquo;m <a href={`https://instagram.com/${social.instagram}`} target="_blank" rel="noopener noreferrer">
             <strong>Joseph</strong></a> </h2>
