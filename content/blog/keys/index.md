@@ -173,4 +173,4 @@ Now we have a Bitcoin address that can receive and send bitcoins. We can check i
 ## Final words
 You now can generate your own bitcoin address and use for transactions. There is some more improvement of bitcoin keys that I haven't touched as this article is based on understanding the basics of generating bitcoin keys. Good understanding of the process of generating these keys, play a big role in working with bitcoin stuff, e.g keys and addresses, signing and verification of transactions etc.  
 
-If you have any thought about this article, you can you can mail me at [jose@astrojose.xyz](mailto:jose@astrojose.xyz)
+If you have any thought about this article, you can you can mail me at [jossey1918@gmail.com](mailto:jossey1918@gmail.com)

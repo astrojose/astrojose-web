@@ -34,7 +34,7 @@ const Bio = () => {
     <div class="bio-card content-wrapper">
      <div class="bio">
         
-          <h2> Hi, I&rsquo;m <a href={`https://instagram.com/${social.instagram}`} target="_blank" rel="noopener noreferrer">
+          <h2> Hi, I&rsquo;m <a href={`https://twitter.com/${social.twitter}`} target="_blank" rel="noopener noreferrer">
             <strong>Joseph</strong></a> </h2>
             <p>{author.summary}</p>
           {` `}
